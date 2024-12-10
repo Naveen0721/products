@@ -87,7 +87,7 @@ console.log(state.result)
       <input className="border-2 rounded-xl" onChange={ratingfilter} placeholder='set rating limit'/>
 
       </div>
-      <div className='grid grid-cols-5 md:grid-cols-4 lg:grid-cols-6 gap-y-3 gap-x-4'>
+      <div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-y-3 gap-x-4'>
         {
            newratingfilter.length>0 && newratingfilter.map(item=>(
               <div className='border border-black p-4'>
