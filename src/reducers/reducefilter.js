@@ -19,6 +19,11 @@ export const reducefilter=(state,action)=>
                 ...state,
                 rating:action.payload
             }
+        case "search":
+            return{
+                ...state,
+                search:action.payload
+            }
         case "Result":
             return{
                 ...state,
